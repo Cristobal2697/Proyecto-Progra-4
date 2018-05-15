@@ -18,7 +18,8 @@ public class Empresa extends Usuario {
     private String descripcion; //del perfil
     private List<Oferta> ofertas;
 
-    public Empresa(String descripcion, List<Oferta> ofertas, String nombre, String clave, String telefono, String correo, String nombreUsuario) {
+    public Empresa(String descripcion, List<Oferta> ofertas, String nombre, String clave, String telefono,
+                   String correo, String nombreUsuario) {
         super(nombre, clave, telefono, correo, nombreUsuario);
         this.descripcion = descripcion;
         this.ofertas = ofertas;
